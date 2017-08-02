@@ -1,0 +1,9 @@
+deployment:
+ production:
+  branch: master
+  command:
+   - mocha
+
+test:
+ override:
+  - mocha
