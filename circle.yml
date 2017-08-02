@@ -6,10 +6,7 @@ machine:
 
 
 dependencies:
- override:
-   - docker info
-   - docker build -t 80017/circle_ci .
-  
+ 
  pre:
    - npm install
    - npm install chai@latest -S
@@ -18,6 +15,9 @@ dependencies:
 test:
  override:
     - npm run test
+    - docker info
+    - docker build -t 80017/circle_ci .
+    
     
 
 deployment:
