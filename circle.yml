@@ -7,5 +7,8 @@ dependencies:
    - npm install chai@latest -S
 
 test:
+ pre:
+    - npm install
+    - npm install chai@latest -S
  override:
-  - npm run test
+    - npm run test
