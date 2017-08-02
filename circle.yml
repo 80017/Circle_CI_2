@@ -2,7 +2,7 @@ deployment:
  production:
   branch: master
   command:
-   - mocha
+   - npm install chai@latest -S
 
 test:
  override:
