@@ -1,9 +1,4 @@
 
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/node:7.10
 
 dependencies:
  pre:
