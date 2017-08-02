@@ -7,6 +7,7 @@ dependencies:
  pre:
    - npm install
    - npm install chai@latest -S
+   - npm install rethinkdb-job-queue -s
    - npm install mocha-junit-reporter --save-dev
 
 test:
@@ -16,8 +17,4 @@ test:
         environment:
           MOCHA_FILE: $CIRCLE_TEST_REPORTS/junit/test-results.xml
 
-deployment:
- production:
-  branch: master
-  command:
-   - ./deploy_dev.sh
+
