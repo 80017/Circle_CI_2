@@ -56,5 +56,6 @@ describe('Feathers application tests', () => {
   });
 });
 
+
 //To check whether all necessary tables are exist in DB or not
 
