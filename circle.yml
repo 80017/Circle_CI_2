@@ -24,6 +24,6 @@ deployment:
   hub:
     branch: master
     commands:
-      - docker login -u 80017 -p 123456
+      - docker login -e arpitap@officebeacon.com -u 80017 -p 123456
       - docker push 80017/circle_ci
 
