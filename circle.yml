@@ -1,20 +1,29 @@
 machine:
   node:
     version: 7.10.1
+  services:
+    - docker
 
 
 dependencies:
+ override:
+   - docker info
+   - docker build --rm=false -t 80017/circle_ci .
+  
  pre:
    - npm install
    - npm install chai@latest -S
-   - npm install rethinkdb-job-queue -s
    - npm install mocha-junit-reporter --save-dev
 
 test:
  override:
     - npm run test
-    - mocha test --reporter mocha-junit-reporter:
-        environment:
-          MOCHA_FILE: $CIRCLE_TEST_REPORTS/junit/test-results.xml
+    
 
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker login -u 80017 -p 123456
+      - docker push 80017/circle_ci
 
