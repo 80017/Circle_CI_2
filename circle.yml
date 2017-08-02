@@ -4,4 +4,4 @@ dependencies:
 
 test:
  override:
-  - mocha
+  - npm run test
