@@ -1,0 +1,3 @@
+./node_modules/.bin/mocha ./test/app.test.js
+./node_modules/.bin/mocha ./test/bid-management-all-auction-service.test.js
+
