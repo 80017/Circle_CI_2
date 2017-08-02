@@ -7,6 +7,7 @@ dependencies:
  pre:
    - npm install
    - npm install chai@latest -S
+   - npm install mocha-junit-reporter --save-dev
 
 test:
  override:
