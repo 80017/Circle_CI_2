@@ -1,8 +1,4 @@
-deployment:
- production:
-  branch: master
-  command:
-   - ./script/test/
+
 
 
 dependencies:
