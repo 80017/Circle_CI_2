@@ -59,7 +59,6 @@ describe('Feathers application tests', () => {
 
 //To check whether all necessary tables are exist in DB or not
 describe('Check all table is exist or not', async() => {
-    
     it('Table: AuctionQueue', async() => {
         await r.table("AuctionQueue").run(connection, function(err, result) {
             assert.notEqual(undefined,result,"Table exist")
