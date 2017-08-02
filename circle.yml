@@ -1,7 +1,5 @@
-deployment:
- production:
-  branch: master
-  command:
+dependencies:
+ pre:
    - npm install chai@latest -S
 
 test:
