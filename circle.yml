@@ -3,6 +3,7 @@
 
 dependencies:
  pre:
+   - npm install
    - npm install chai@latest -S
 
 test:
