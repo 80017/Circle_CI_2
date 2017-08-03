@@ -16,7 +16,7 @@ test:
  override:
     - npm run test
     - docker info
-    - docker build -t 80017/circle_ci .
+    - docker build -t 80017/circle_ci:8.1.2 .
     
     
 
