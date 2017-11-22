@@ -1,6 +1,7 @@
 ##################################################################
 ####################################################################
 #################################
+#################################################
 # Bidding_Backend
 
 This project is a standalone Bid management module built for closeout promo project . Thebackend has built on feathers js and rethink db . The following feathers are there in this module -
@@ -62,3 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 Feathers.js - [Feathers.js](https://github.com/feathersjs/feathers)
 
 #####################################################
+*************************************
