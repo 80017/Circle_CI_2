@@ -8,7 +8,8 @@ This project is a standalone Bid management module built for closeout promo proj
 4. Edit Auction's Data
 5. Rethink db job queue for quing bidders 
 6. Send mail to winner in the end of the auction
- 
+
+
 ## Installing
 ```
 
