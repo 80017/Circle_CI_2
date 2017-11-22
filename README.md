@@ -8,7 +8,8 @@ This project is a standalone Bid management module built for closeout promo proj
 4. Edit Auction's Data
 5. Rethink db job queue for quing bidders 
 6. Send mail to winner in the end of the auction
- 
+
+
 ## Installing
 ```
 
@@ -56,3 +57,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 Feathers.js - [Feathers.js](https://github.com/feathersjs/feathers)
+
+#####################################################
