@@ -1,6 +1,6 @@
 # Bidding_Backend
 
-This project is a standalone Bid management module built for closeout promo project . Thebackend has built on feathers js and rethink db . The following feathers are there in this module -
+This project is a standalone Bid management module built for closeout promo project .Thebackend has built on feathers js and rethink db . The following feathers are there in this module -
 
 1. Instant bids 
 2. Auto bid
